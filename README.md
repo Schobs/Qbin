@@ -34,16 +34,21 @@ We compare these measures on landmark predictions from:
 Install the required packages:
 
 ```bash
+conda create --n qbin_env, conda activate qbin_env  (Optional)
+
 pip install -r requirements.txt
 ```
 
 Run Quantile Binning for the Four Chamber, Short Axis, and Cephalometric data respectively:
 
 ```bash
-python main.py --cfg configs/4CH_data.yaml
+cd code
+python main.py --cfg configs/4CH_data.yaml 
 python main.py --cfg configs/SA_data.yaml
 python main.py --cfg configs/isbi_config.yaml
 ```
+
+*Tip: To save all figures automatically instead of displaying, set SAVE_FIGURES: True in the .yaml file.*
  
  Edit it the above yaml files for additional configuration options.
 
