@@ -30,7 +30,11 @@ We compare these measures on landmark predictions from:
 - A [PHD-Net model](https://ieeexplore.ieee.org/document/9433895/).
 
 ## 3. Usage
+Clone the repo
 
+```bash
+git clone https://github.com/Schobs/Qbin
+```
 Install the required packages:
 
 ```bash
